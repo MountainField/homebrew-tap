@@ -2,8 +2,10 @@ class BashTimeout < Formula
   desc "A command (and also bash function) to terminate another command after specified duration"
   homepage "https://github.com/nogayama/bash-timeout"
 
-  url "https://github.com/nogayama/bash-timeout.git", :tag => "v1.1.1"
-  head "https://github.com/nogayama/bash-timeout.git"
+  # url "https://github.com/nogayama/bash-timeout.git", :tag => "v1.1.1"
+  # head "https://github.com/nogayama/bash-timeout.git"
+  url "https://github.com/nogayama/bash-timeout/archive/v1.1.0.tar.gz"
+  
   version "1.1.1"
   
   def install
