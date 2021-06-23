@@ -1,3 +1,6 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
@@ -13,7 +16,7 @@ class Dw < Formula
 
   # depends_on "cmake" => :build
   depends_on "python"
-  resource "dw" do
+  resource "py-dw" do
     url "https://github.com/MountainField/dw/releases/download/v1.0.1/py-dw-1.0.1.tar.gz"
     sha256 "1802e7f08c388d7bfcfc50dadb599e9eb0c2aef04da08a74e3f7acef1ecd1c50"
   end
