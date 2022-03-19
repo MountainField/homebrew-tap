@@ -6,20 +6,18 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Dw < Formula
   include Language::Python::Virtualenv
-  
-  version "1.0.1"
+
   desc "dw is a lightweight data wrangling tool for command line"
   homepage "https://github.com/MountainField/dw"
-  url "https://github.com/MountainField/dw/releases/download/v1.0.1/py-dw-1.0.1.tar.gz"
-  sha256 "1802e7f08c388d7bfcfc50dadb599e9eb0c2aef04da08a74e3f7acef1ecd1c50"
   license "MIT"
+
+  url "https://github.com/MountainField/dw/releases/download/v0.0.2/python-dw-0.0.2.tar.gz"
+  sha256 "afdb3b0965a705e332c09f6548d36f1bc864ece145999b7db2a47167f16548a0"
+  version "1.0.1"
+
 
   # depends_on "cmake" => :build
   depends_on "python"
-  resource "py-dw" do
-    url "https://github.com/MountainField/dw/releases/download/v1.0.1/py-dw-1.0.1.tar.gz"
-    sha256 "1802e7f08c388d7bfcfc50dadb599e9eb0c2aef04da08a74e3f7acef1ecd1c50"
-  end
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
