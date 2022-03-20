@@ -11,9 +11,9 @@ class Dw < Formula
   homepage "https://github.com/MountainField/dw"
   license "MIT"
 
-  url "https://github.com/MountainField/dw/releases/download/v0.0.4/python-dw-0.0.4.tar.gz"
-  sha256 "155ce0e20f94b2dcf41e7e17db97d36b0261c3c5566012a8b9916e0c9dd5f0bc"
-  version "0.0.4"
+  url "https://github.com/MountainField/dw/releases/download/v0.0.5/python-dw-0.0.5.tar.gz"
+  sha256 "49d7a9c0f3f070009e94bfb3a32de0dd97dc01ab09033ffb84f8ced6eb514847"
+  version "0.0.5"
 
 
   # depends_on "cmake" => :build
