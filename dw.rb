@@ -11,13 +11,17 @@ class Dw < Formula
   homepage "https://github.com/MountainField/dw"
   license "MIT"
 
-  url "https://github.com/MountainField/dw/releases/download/v0.0.6/python-dw-0.0.6.tar.gz"
-  sha256 "46975f97c60b9f656c698d54d00942fe603ff9898b46b87e7e5db83cee9c1c43"
-  version "0.0.6"
-
-
   # depends_on "cmake" => :build
   depends_on "python"
+
+  version "0.0.7"
+  url "https://files.pythonhosted.org/packages/86/be/d8707b024a9cd068cbb69e5502c3075033d8dc385f56c714dfa246bc5f62/python-dw-0.0.7.tar.gz"
+  sha256 "aeb0379bbdee7edcf838251ad418f12ea5c160b783879bfc52d61e0c9473b9c5"
+
+  resource "PyYAML" do
+    url "https://files.pythonhosted.org/packages/36/2b/61d51a2c4f25ef062ae3f74576b01638bebad5e045f747ff12643df63844/PyYAML-6.0.tar.gz"
+    sha256 "68fb519c14306fec9720a2a5b45bc9f0c8d1b9c72adf45c37baedfcd949c35a2"
+  end
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
